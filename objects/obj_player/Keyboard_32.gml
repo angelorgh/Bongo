@@ -6,7 +6,7 @@ if (grounded)
 	vel_y = -jump_speed;
 
 	// This changes the player's sprite to the jump sprite, and resets the frame to 0.
-	sprite_index = spr_player_jump;
+	//sprite_index = spr_player_jump;
 	image_index = 0;
 
 	// This sets 'grounded' to false, so that any events after this know that the player is not supposed
@@ -15,9 +15,9 @@ if (grounded)
 
 	// This creates an instance of obj_effect_jump at the bottom of the player's mask. This is the
 	// jump VFX animation.
-	instance_create_layer(x, bbox_bottom, "Instances", obj_effect_jump);
+	//instance_create_layer(x, bbox_bottom, "Instances", obj_effect_jump);
 	
 	// Play the jump sound with a random pitch
-	var _sound = audio_play_sound(snd_jump, 0, 0);
-	audio_sound_pitch(_sound, random_range(0.8, 1));
+	//var _sound = audio_play_sound(snd_jump, 0, 0);
+	//audio_sound_pitch(_sound, random_range(0.8, 1));
 }

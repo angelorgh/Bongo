@@ -1,16 +1,16 @@
 // This is the horizontal movement speed of the character.
 // It's in pixels per second.
-move_speed = 8;
+move_speed = 5;
 
 // This is the friction value applied to the character's horizontal movement every frame.
 // This is applied in the Begin Step event. The friction is reduced when the character is in mid-air.
 friction_power = 0.7;
 
 // This is the jumping speed of the character.
-jump_speed = 23;
+jump_speed = 15;
 
 // This is the gravity applied every frame.
-grav_speed = 1;
+grav_speed = 1.5;
 
 // vel_x and vel_y are the X and Y velocities of the character.
 // They store how much the character is moving in any given frame.
@@ -38,4 +38,4 @@ no_hurt_frames = 0;
 
 // This is the object that replaces the character once it is defeated. By default it's set to 'obj_player_defeated'
 // and its value may be changed in a child object.
-defeated_object = obj_player_defeated;
+//defeated_object = obj_player_defeated;
