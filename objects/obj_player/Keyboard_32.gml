@@ -6,7 +6,7 @@ if (grounded)
 	vel_y = -jump_speed;
 
 	// This changes the player's sprite to the jump sprite, and resets the frame to 0.
-	//sprite_index = spr_player_jump;
+	sprite_index = spr_player_jump;
 	image_index = 0;
 
 	// This sets 'grounded' to false, so that any events after this know that the player is not supposed
