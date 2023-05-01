@@ -53,7 +53,7 @@
     ],
     "top": 0,
   },
-  "origin": 4,
+  "origin": 7,
   "parent": {
     "name": "Player",
     "path": "folders/Sprites/Player.yy",
@@ -97,7 +97,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 75,
-    "yorigin": 165,
+    "yorigin": 331,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

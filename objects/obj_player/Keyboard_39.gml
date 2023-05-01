@@ -1,9 +1,9 @@
 // This checks if the player is currently in knockback, after being hit by an enemy.
-if (in_knockback)
-{
-	// In that case we exit/stop the event here, so the player can't move.
-	exit;
-}
+//if (in_knockback)
+//{
+//	// In that case we exit/stop the event here, so the player can't move.
+//	exit;
+//}
 
 // Set the X velocity to move_speed.
 // This makes the character move right.

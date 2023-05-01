@@ -4,7 +4,7 @@ event_inherited();
 // This is a switch statement that runs on the 'sprite_index' variable, which stores the sprite
 // currently assigned to the instance.
 // This allows us to transition to some other sprite, depending on the currently assigned sprite, and some additional conditions.
-sprite_index = spr_player_idle;
+//sprite_index = spr_player_idle;
 switch (sprite_index)
 {
 	// Code under this case runs if the assigned sprite is 'spr_player_walk', meaning the player is walking.
