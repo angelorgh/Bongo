@@ -42,6 +42,7 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"debug_object","path":"objects/debug_object/debug_object.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"obj_block_parent","path":"objects/obj_block_parent/obj_block_parent.yy",},},
     {"id":{"name":"obj_block_brick","path":"objects/obj_block_brick/obj_block_brick.yy",},},

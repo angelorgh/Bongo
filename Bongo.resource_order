@@ -25,6 +25,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"debug_object","order":5,"path":"objects/debug_object/debug_object.yy",},
     {"name":"obj_block_brick","order":1,"path":"objects/obj_block_brick/obj_block_brick.yy",},
     {"name":"spr_player_hurt","order":4,"path":"sprites/spr_player_hurt/spr_player_hurt.yy",},
     {"name":"spr_player_fall","order":2,"path":"sprites/spr_player_fall/spr_player_fall.yy",},
