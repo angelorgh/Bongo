@@ -1,18 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_block_brick",
+  "name": "obj_player_new",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Objects/Characters/Environment/Blocks.yy",
+    "name": "Player",
+    "path": "folders/Objects/Characters/Player.yy",
   },
-  "parentObjectId": {
-    "name": "obj_block_parent",
-    "path": "objects/obj_block_parent/obj_block_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_block_brick",
-    "path": "sprites/spr_block_brick/spr_block_brick.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

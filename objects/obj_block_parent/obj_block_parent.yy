@@ -14,7 +14,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Blocks",
-    "path": "folders/Objects/Environment/Blocks.yy",
+    "path": "folders/Objects/Characters/Environment/Blocks.yy",
   },
   "parentObjectId": {
     "name": "obj_collision",
