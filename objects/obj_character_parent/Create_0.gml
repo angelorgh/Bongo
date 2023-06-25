@@ -1,3 +1,4 @@
+
 // This is the horizontal movement speed of the character.
 // It's in pixels per second.
 move_speed = 4;

@@ -34,6 +34,7 @@
   "ResourceOrderSettings": [
     {"name":"debug_object","order":5,"path":"objects/debug_object/debug_object.yy",},
     {"name":"spr_emotes","order":5,"path":"sprites/spr_emotes/spr_emotes.yy",},
+    {"name":"checkInput","order":3,"path":"scripts/checkInput/checkInput.yy",},
     {"name":"obj_block_brick","order":1,"path":"objects/obj_block_brick/obj_block_brick.yy",},
     {"name":"spr_player_hurt","order":4,"path":"sprites/spr_player_hurt/spr_player_hurt.yy",},
     {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
@@ -52,6 +53,7 @@
     {"name":"create_textevent","order":1,"path":"scripts/create_textevent/create_textevent.yy",},
     {"name":"par_speaker","order":2,"path":"objects/par_speaker/par_speaker.yy",},
     {"name":"spr_player_jump","order":3,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
+    {"name":"Approach","order":2,"path":"scripts/Approach/Approach.yy",},
     {"name":"spr_portrait_flor","order":7,"path":"sprites/spr_portrait_flor/spr_portrait_flor.yy",},
     {"name":"spr_dialoguebox","order":4,"path":"sprites/spr_dialoguebox/spr_dialoguebox.yy",},
     {"name":"obj_emote","order":3,"path":"objects/obj_emote/obj_emote.yy",},
