@@ -53,7 +53,7 @@ if(type[page] == 1){
 		if(choice == ii){ 
 			if(chosen) { col = select_col; }
 			else	   { col = choice_col; }
-		} else { col = c_white; }
+		} else { col = c_black; }
 		
 		//Draw our choices
 		var ctext = "* "+tp[ii];

@@ -7,8 +7,7 @@ interact_key		= ord("E");
 up_key				= vk_up;		//for dialogue choices
 down_key			= vk_down;		//for dialogue choices
 
-scale				= 2.75;
-
+scale				= 3;
 x_buffer			= 10 * scale;
 y_buffer			= 7 * scale;
 
@@ -22,7 +21,7 @@ emote_sprite		= spr_emotes;
 //select_snd_effect	= snd_select;
 
 default_col			= c_black;
-choice_col			= c_yellow;
+choice_col			= c_lime;
 select_col			= c_orange;
 name_col			= c_orange;
 
@@ -56,9 +55,6 @@ portraitWidth	= sprite_get_width(portrait_frame) * scale;
 finishede_num	= sprite_get_number(finished_effect);
 finishede_spd	= (sprite_get_speed(spr_dialoguefinished)/room_speed);
 
-// Resize the portrait sprite to the desired size
-//portrait_frame = sprite_create_from_surface(portrait_frame, portraitWidth, portraitWidth, false, false, 0, 0);
-
 pos_x			= (gb_diff/2)+(portraitWidth/2);
 pos_y			= gui_height-boxHeight-8;
 
@@ -88,7 +84,7 @@ text			= -1;
 text_NE			= -1;
 breakpoints		= -1;
 nextline		= 0;
-text_col		= c_white;
+text_col		= c_black;
 emotion			= 0;
 
 portrait		= 1;

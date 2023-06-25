@@ -2,7 +2,7 @@ if(instance_number(obj_textevent)>1 or instance_number(obj_textbox)>0){ instance
 
 //-----------Customise (FOR USER)
 myVoice			= snd_voice2;
-myTextCol		= c_white;
+myTextCol		= c_black;
 myPortrait		= -1;
 myFont			= fnt_dialogue;
 myName			= "None";

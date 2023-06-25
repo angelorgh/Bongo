@@ -34,7 +34,7 @@ switch(choice_variable){
 		myText[i]		= "Looky here, green hood.";
 		myEffects[i]	= [13,1, 18,0];
 		mySpeaker[i]	= id;
-		myTextCol[i]	= [13, c_lime, 18, c_white];
+		myTextCol[i]	= [13, c_lime, 18, c_black];
 
 		//Line 5
 		i++;
@@ -42,7 +42,7 @@ switch(choice_variable){
 		myEmotion[i]	= 1;
 		myEmote[i]		= 0;
 		mySpeaker[i]	= id;
-		myTextCol[i]	= [14, c_aqua, 18, c_white];
+		myTextCol[i]	= [14, c_aqua, 18, c_black];
 
 		//Line 6
 		i++;
@@ -51,7 +51,7 @@ switch(choice_variable){
 		myEmotion[i]	= 0;
 		myEmote[i]		= 4;
 		mySpeaker[i]	= id;
-		myTextCol[i]	= [11, c_red, 18, c_white];
+		myTextCol[i]	= [11, c_red, 18, c_black];
 
 		//Line 7
 		i++;
@@ -88,7 +88,7 @@ switch(choice_variable){
 		myEmotion[i]	= 2;
 		myEmote[i]		= 9;
 		mySpeaker[i]	= id;
-		myTextCol[i]	= [26,c_lime, 31,c_white];
+		myTextCol[i]	= [26,c_lime, 31,c_black];
 		
 		//uncommenting this will make the first conversation begin again
 		//choice_variable	= -1;
@@ -105,7 +105,7 @@ switch(choice_variable){
 		myEmotion[i]	= 1;
 		myEmote[i]		= 0;
 		mySpeaker[i]	= id;
-		myTextCol[i]	= [19,c_aqua, 23,c_white];
+		myTextCol[i]	= [19,c_aqua, 23,c_black];
 		
 		//uncommenting this will make the first conversation begin again
 		//choice_variable	= -1;

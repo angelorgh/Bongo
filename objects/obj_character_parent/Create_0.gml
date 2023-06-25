@@ -7,7 +7,7 @@ move_speed = 4;
 friction_power = 0.7;
 
 // This is the jumping speed of the character.
-jump_speed = 15;
+jump_speed = 35;
 
 // This is the gravity applied every frame.
 grav_speed = 1.5;

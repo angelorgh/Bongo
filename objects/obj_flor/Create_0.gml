@@ -7,12 +7,12 @@ myPortrait			= spr_portrait_flor;
 //myVoice				= snd_voice1;
 myName				= "Flor";
 
-//myPortraitTalk		= spr_portrait_examplechar_mouth;
-//myPortraitTalk_x	= 26;
-//myPortraitTalk_y	= 44;
-//myPortraitIdle_x = -300;
-//myPortraitIdle_y = 44;
-//myPortraitIdle		= spr_portrait_flor;
+//myPortraitTalk		= spr_portrait_flor_idle;
+//myPortraitTalk_x	= 0;
+//myPortraitTalk_y	= 0;
+myPortraitIdle_x = 0;
+myPortraitIdle_y = 0;
+myPortraitIdle = spr_portrait_flor_idle;
 
 
 //-------OTHER
