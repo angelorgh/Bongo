@@ -15,7 +15,7 @@ reset_dialogue_defaults();
 myPortrait			= spr_portrait_player;
 //myVoice				= snd_voice2;
 myFont				= fnt_dialogue;
-myName				= "Green";
+myName				= "Hugo";
 
 myPortraitIdle		= spr_portrait_player_talk;
 myPortraitIdle_x	= 0;
