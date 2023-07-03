@@ -4,10 +4,6 @@
   "name": "obj_player_new",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceVersion":"1.0","name":"","resourceType":"GMEvent","eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceVersion":"1.0","name":"","resourceType":"GMEvent","eventNum":1,"eventType":3,"isDnD":false,},
-    {"resourceVersion":"1.0","name":"","resourceType":"GMEvent","eventNum":2,"eventType":3,"isDnD":false,},
-    {"resourceVersion":"1.0","name":"","resourceType":"GMEvent","eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -15,7 +11,10 @@
     "name": "Player",
     "path": "folders/Objects/Characters/Player.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_char_par_new",
+    "path": "objects/obj_char_par_new/obj_char_par_new.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,7 +30,13 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
-  "spriteMaskId": null,
+  "spriteId": {
+    "name": "spr_player_idle",
+    "path": "sprites/spr_player_idle/spr_player_idle.yy",
+  },
+  "spriteMaskId": {
+    "name": "spr_collisionchar",
+    "path": "sprites/spr_collisionchar/spr_collisionchar.yy",
+  },
   "visible": true,
 }

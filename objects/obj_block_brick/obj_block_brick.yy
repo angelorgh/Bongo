@@ -7,11 +7,11 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Blocks",
-    "path": "folders/Objects/Characters/Environment/Blocks.yy",
+    "path": "folders/Objects/Environment/Blocks.yy",
   },
   "parentObjectId": {
-    "name": "obj_block_parent",
-    "path": "objects/obj_block_parent/obj_block_parent.yy",
+    "name": "obj_block_par",
+    "path": "objects/obj_block_par/obj_block_par.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

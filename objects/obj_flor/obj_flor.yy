@@ -14,8 +14,8 @@
     "path": "folders/Objects/Characters/Secondary.yy",
   },
   "parentObjectId": {
-    "name": "par_speaker",
-    "path": "objects/par_speaker/par_speaker.yy",
+    "name": "obj_speaker_par",
+    "path": "objects/obj_speaker_par/obj_speaker_par.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
