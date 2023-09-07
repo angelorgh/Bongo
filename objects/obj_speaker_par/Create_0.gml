@@ -1,6 +1,6 @@
 
 //-----------Customise (FOR USER)
-playerobject = obj_player;
+playerobject = obj_player_new;
 interact_key = ord("E");
 detection_radius = 32;
 

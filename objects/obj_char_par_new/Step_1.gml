@@ -10,5 +10,3 @@ if (z + vz > 0)			// If z position plus vz speed is bigger than 0, means that we
 
 // IDLE state always except for this cases
 state = IDLE;
-
-

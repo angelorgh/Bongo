@@ -1,7 +1,7 @@
 /// @description Player own properties
 event_inherited();
 
-playerName = "John";
+playerName = "Hugo";
 
 reset_dialogue_defaults();
 myPortrait			= spr_portrait_player;

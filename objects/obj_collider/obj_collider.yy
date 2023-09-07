@@ -9,7 +9,10 @@
     "name": "Misc",
     "path": "folders/Objects/Misc.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_solid_par",
+    "path": "objects/obj_solid_par/obj_solid_par.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

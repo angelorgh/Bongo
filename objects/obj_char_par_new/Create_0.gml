@@ -38,9 +38,8 @@ HURT	 = 19;
 RIGHT =  1;
 LEFT  = -1;
 // Initialize player's properties
-playerId = string_digits(object_get_name(object_index));		// We extract the id in numbers from the object name. So, if the name is "oPlayer1", playerId is "1"
+//playerId = string_digits(object_get_name(object_index));		// We extract the id in numbers from the object name. So, if the name is "oPlayer1", playerId is "1"
 state  = IDLE;
 facing = RIGHT;
 dir = facing;													// direction where moving (may be different than facing direction!)
 // ---------------------------------------------------- //
-

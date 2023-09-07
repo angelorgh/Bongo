@@ -21,7 +21,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Secondary","folderPath":"folders/Objects/Characters/Secondary.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Dialogue","folderPath":"folders/Objects/Dialogue.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Environment","folderPath":"folders/Objects/Environment.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Blocks","folderPath":"folders/Objects/Environment/Blocks.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Managers","folderPath":"folders/Objects/Managers.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Misc","folderPath":"folders/Objects/Misc.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Parents","folderPath":"folders/Objects/Parents.yy",},
@@ -50,7 +49,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.600.0.370",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},
@@ -59,10 +58,8 @@
     {"id":{"name":"create_dialogue","path":"scripts/create_dialogue/create_dialogue.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"addParticles","path":"scripts/addParticles/addParticles.yy",},},
-    {"id":{"name":"obj_block_par","path":"objects/obj_block_par/obj_block_par.yy",},},
     {"id":{"name":"obj_player_new","path":"objects/obj_player_new/obj_player_new.yy",},},
     {"id":{"name":"obj_solid_par","path":"objects/obj_solid_par/obj_solid_par.yy",},},
-    {"id":{"name":"obj_block_brick","path":"objects/obj_block_brick/obj_block_brick.yy",},},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
     {"id":{"name":"print","path":"scripts/print/print.yy",},},
     {"id":{"name":"spr_player_hurt","path":"sprites/spr_player_hurt/spr_player_hurt.yy",},},

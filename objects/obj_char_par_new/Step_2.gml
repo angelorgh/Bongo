@@ -13,7 +13,7 @@ repeat(abs(vz)) {
 
 // Vertical Walking
 repeat(abs(vy)) {
-    if (!position_meeting(x, y + sign(vy) + z, oParSolid)						// If player don't collide under or above..
+    if (!position_meeting(x, y + sign(vy) + z, obj_solid_par)						// If player don't collide under or above..
 	and (!onGround))				                                            // ...and is not in a hitting state...
 	{
 		if (kRight or kLeft)												// ..if combined with horizontal input
@@ -31,7 +31,7 @@ repeat(abs(vy)) {
 repeat(abs(vx)) 
 {  
     // X Update
-    if (!position_meeting(x + sign(vx), y + z, oParSolid)						// If player don't collide left or right..
+    if (!position_meeting(x + sign(vx), y + z, obj_solid_par)						// If player don't collide left or right..
 	and (x + sign(vx) <= camera_get_view_x(cam) + camera_get_view_width(cam)) and (x + sign(vx) >= camera_get_view_x(cam))		// ...is inside the camera boundaries..
 	and (!onGround))				                                        // ...and is not in a hitting state...
 	{																		

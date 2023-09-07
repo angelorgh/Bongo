@@ -7,8 +7,8 @@
 var camX1 = camera_get_view_x(cam);
 var camX2 = camera_get_view_x(cam) + camera_get_view_width(cam);
 // Current Battle Area X boundaries (temporary variables)
-var btaX1 = obj_game_manager_new.lastBattleAreaX;
-var btaX2 = obj_game_manager_new.lastBattleAreaX + obj_game_manager_new.lastBattleAreaWidth;
+//var btaX1 = obj_game_manager_new.lastBattleAreaX;
+//var btaX2 = obj_game_manager_new.lastBattleAreaX + obj_game_manager_new.lastBattleAreaWidth;
 
 //if (obj_game_manager_new.inBattleArea and ((camX2 >= btaX2 and cameraDir = 1) or (camX1 < btaX1 and cameraDir = -1)))	// If inBattleArea and camera crosses the Battle area boundaries when moving...
 //or (camX1 < btaX1 and cameraDir = -1) 																	// ..or camera tries to go back to the lastBattleAreaX (no matter if inBattleArea or not)...
