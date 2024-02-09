@@ -58,6 +58,7 @@
     {"id":{"name":"obj_block_parent","path":"objects/obj_block_parent/obj_block_parent.yy",},},
     {"id":{"name":"obj_block_brick","path":"objects/obj_block_brick/obj_block_brick.yy",},},
     {"id":{"name":"spr_player_hurt","path":"sprites/spr_player_hurt/spr_player_hurt.yy",},},
+    {"id":{"name":"bkg_habhugo_light","path":"sprites/bkg_habhugo_light/bkg_habhugo_light.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_flor","path":"sprites/spr_flor/spr_flor.yy",},},
     {"id":{"name":"spr_namebox","path":"sprites/spr_namebox/spr_namebox.yy",},},

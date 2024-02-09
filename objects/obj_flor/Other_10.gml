@@ -3,15 +3,17 @@ reset_dialogue_defaults();
 
 switch(choice_variable){
 	case -1:
-	#region First Dialogue
+
 		//Line 0
 		var i = 0;
-		myText[i]		= "¿Eras de los niños que arrancaban petálos de las flores?";
+		//myText[i]		= "¿Eras de los niños que arrancaban petálos de las flores?";
+		myText[i]		= "Were you one of the children who plucked petals from flowers?";
 		mySpeaker[i]	= id;
 		
 		//Line 1
 		i++;
-		myText[i]		= ["Tal vez.", "¡Imposible, amo las flores!", "¿Por qué hablas en pasado? Sigo siendo un nino."];
+		//myText[i]		= ["Tal vez.", "¡Imposible, amo las flores!", "¿Por qué hablas en pasado? Sigo siendo un nino."];
+		myText[i]		= ["Maybe.", "No way! I love flowers!", "¿Why are you speaking in past tense? I'm still a kid."];
 		myTypes[i]		= 1;
 		mySpeaker[i]	= obj_player;
 		myScripts[i]	= [[change_variable, id, "choice_variable", "tal_vez"], [change_variable, id, "choice_variable", "imposible"], [change_variable, id, "choice_variable", -1]];
@@ -19,7 +21,8 @@ switch(choice_variable){
 		
 		//Line 2
 		i++;
-		myText[i]		= "¡Lo sabía! Ustedes son todos iguales.";
+		//myText[i]		= "¡Lo sabía! Ustedes son todos iguales.";
+		myText[i]		= "I knew it! You people are all the same.";
 		myEmotion[i]	= 0;
 		myEmote[i]		= 0;
 		myNextLine[i]	= -1;
@@ -27,7 +30,8 @@ switch(choice_variable){
 		
 		//Line 3
 		i++;
-		myText[i]		= "¡Eres un mentiroso! ¡Lo sabía!";
+		//myText[i]		= "¡Eres un mentiroso! ¡Lo sabía!";
+		myText[i]		= "You're a liar! I knew it!";
 		myEmotion[i]	= 0;
 		myEmote[i]		= 0;
 		myNextLine[i]	= -1;
@@ -35,7 +39,8 @@ switch(choice_variable){
 		
 		//Line 4
 		i++;
-		myText[i]		= "Bueno querido, será mejor que mires un espejo.";
+		//myText[i]		= "Bueno querido, será mejor que mires un espejo.";
+		myText[i]		= "Well dear, you better look in the mirror";
 		myEmotion[i]	= 0;
 		myEmote[i]		= 0;
 		mySpeaker[i]	= id;
@@ -48,7 +53,8 @@ switch(choice_variable){
 		// Tal vez. 2
 		
 		var i = 0;
-		myText[i] = "No quiero hablar contigo.";
+		//myText[i] = "No quiero hablar contigo.";
+		myText[i] = "Leave me alone. I do not want to talk to you.";
 		mySpeaker[i] = id;
 	break;
 	
@@ -56,7 +62,8 @@ switch(choice_variable){
 		// Imposible. ¡Amo las flores! 2
 		
 		var i = 0;
-		myText[i] = "A las flores no les puedes mentir, todo lo vemos.";
+		//myText[i] = "A las flores no les puedes mentir, todo lo vemos.";
+		myText[i] = "You can't lie to the flowers, we see everything.";
 		mySpeaker[i] = id;
 	break;
 	

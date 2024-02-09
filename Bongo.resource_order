@@ -37,6 +37,7 @@
     {"name":"checkInput","order":3,"path":"scripts/checkInput/checkInput.yy",},
     {"name":"obj_block_brick","order":1,"path":"objects/obj_block_brick/obj_block_brick.yy",},
     {"name":"spr_player_hurt","order":4,"path":"sprites/spr_player_hurt/spr_player_hurt.yy",},
+    {"name":"bkg_habhugo_light","order":1,"path":"sprites/bkg_habhugo_light/bkg_habhugo_light.yy",},
     {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"spr_flor","order":1,"path":"sprites/spr_flor/spr_flor.yy",},
     {"name":"spr_namebox","order":3,"path":"sprites/spr_namebox/spr_namebox.yy",},

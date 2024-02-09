@@ -5,7 +5,7 @@ event_inherited(); //so it will inherit from par_speaker
 
 myPortrait			= spr_portrait_flor;
 //myVoice				= snd_voice1;
-myName				= "Flor";
+myName				= "Flower";
 
 //myPortraitTalk		= spr_portrait_flor_idle;
 //myPortraitTalk_x	= 0;
